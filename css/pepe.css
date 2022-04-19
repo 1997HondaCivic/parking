@@ -1,13 +1,30 @@
 
 body {
   background-image: url('../images/rainbow.gif');
-
   background-size: 100%;
   background-repeat: no-repeat;
-  -webkit-transition: all 325ms cubic-bezier(.696, .007, .292, .989);
-  transition: all 325ms cubic-bezier(.696, .007, .292, .989);
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 0px;
-  text-transform: uppercase;
+  background-size: 10000px, auto;
+  background-attachment: fixed, scroll;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#pepe {
+  /* The image used */
+  background-image: url('../images/pepefrg-4');
+  
+
+  /* Full height */
+  width: 1920px;
+  height: 1080px; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
