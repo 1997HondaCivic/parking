@@ -1,0 +1,13 @@
+
+body {
+  background-image: url('../images/rainbow.gif');
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: all 325ms cubic-bezier(.696, .007, .292, .989);
+  transition: all 325ms cubic-bezier(.696, .007, .292, .989);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
